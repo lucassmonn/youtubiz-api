@@ -18,7 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js --exec babel-node -e js"
+    "start": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC"
