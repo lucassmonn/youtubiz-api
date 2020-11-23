@@ -21,4 +21,4 @@ UserSchema.pre('save', function (next) {
 })
 
 
-export default model('User', UserSchema)
+module.exports = model('User', UserSchema)

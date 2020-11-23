@@ -1,9 +1,9 @@
-import express from 'express'
-import mongoose from 'mongoose'
-import routes from './routes'
-import cors from 'cors'
+const express = require('express')
+const mongoose = require('mongoose')
+const routes = require('./routes')
+const cors = require('cors')
 
-import dbConfig from './config/db'
+const dbConfig = require('./config/db')
 
 class App {
 
@@ -27,4 +27,4 @@ class App {
 
 }
 
-export default new App().server
+module.exports = new App().server

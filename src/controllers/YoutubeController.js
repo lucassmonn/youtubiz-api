@@ -29,4 +29,4 @@ class YoutubeController {
     }
 }
 
-export default new YoutubeController()
+module.exports = new YoutubeController()
