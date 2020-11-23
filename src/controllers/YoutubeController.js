@@ -1,5 +1,5 @@
-import ytdl from 'ytdl-core'
-import filenamify from 'filenamify'
+const ytdl = require('ytdl-core')
+const filenamify = require('filenamify')
 
 class YoutubeController {
     mp4(req, res) {
