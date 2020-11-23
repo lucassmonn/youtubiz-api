@@ -19,7 +19,6 @@ class YoutubeController {
         var URL = req.query.URL;
 
         ytdl.getBasicInfo(URL).then(video => {
-            res.send(video.videoDetails.title)
             var title = filenamify(video.videoDetails.title) + '.mp3'
 
             res.header('Content-Disposition', 'attachment; filename="' + title);
