@@ -1,9 +1,6 @@
 const express = require('express')
-const mongoose = require('mongoose')
 const routes = require('./routes')
 const cors = require('cors')
-
-const dbConfig = require('./config/db')
 
 class App {
 
